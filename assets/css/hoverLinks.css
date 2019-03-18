@@ -26,7 +26,7 @@
 
 #photography a:after {
   color: white;
-  content: 'A photography portfolio. Technologies Used: CMS, Photoshop, CSS and HTML5';
+  content: 'A photography portfolio. Technologies Used: CMS, Wordpress, Photoshop, CSS and HTML5';
   padding: 5px;
   font-size: .7em;
   line-height: 1.3em;
@@ -48,7 +48,7 @@
 
 #mom a:after {
   color: white;
-  content: 'A business site. Technologies Used: CMS, CSS and HTML';
+  content: 'A business site. Technologies Used: CMS, CSS, Wordpress, and HTML';
   padding: 5px;
   font-size: .7em;
   line-height: 1.3em;
@@ -70,7 +70,7 @@
 
 #cookies a:after {
   color: white;
-  content: 'A site to track cookie sales. Technologies Used: JavaScript, CSS and HTML5';
+  content: 'A backend RESTful API serverless system that connects endpoints and routes. Technologies used: node.js, JavaScript, RESTful API, CRUD, Authentication, TDD';
   padding: 5px;
   font-size: .7em;
   line-height: 1.3em;
@@ -105,5 +105,27 @@
 }
 
 #vote:hover a:after {
+  display:block;
+}
+
+#store {
+  position:relative;
+}
+
+#store a:after {
+  color: white;
+  content: 'An e-commerce template store. Technologies Used: React, Gatsby, JavaScript, GraphQL, SASS';
+  padding: 5px;
+  font-size: .7em;
+  line-height: 1.3em;
+  background-color: rgba(00, 00, 00, .6);
+  display: none;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  right: 0;
+}
+
+#store:hover a:after {
   display:block;
 }
